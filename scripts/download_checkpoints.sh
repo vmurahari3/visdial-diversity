@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Make directory if not exist
+mkdir -p checkpoints-release
+
 # SL checkpoints  
 wget https://s3.amazonaws.com/visdial-diversity/checkpoints/2019_10_02/SL_QBOT.vd -O checkpoints-release/SL_QBOT.vd
 wget https://s3.amazonaws.com/visdial-diversity/checkpoints/2019_10_02/SL_ABOT.vd -O checkpoints-release/SL_ABOT.vd
